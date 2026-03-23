@@ -72,4 +72,9 @@ public class MenuS : MonoBehaviour
         Debug.Log("Cerrando juego...");
         Application.Quit();
     }
+
+    public void RegresarMenu()
+    {
+        SceneManager.LoadScene("MenuScene");
+    }
 }
